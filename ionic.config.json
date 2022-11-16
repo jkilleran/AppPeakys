@@ -1,0 +1,7 @@
+{
+  "name": "Peaky-Blinders",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

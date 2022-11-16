@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Moments</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="dark"> 
+    <ion-card-header>
+      <ion-card-title>"No fucking fighting"</ion-card-title>
+    </ion-card-header>
+    <img alt="Silhouette of mountains" src="assets/nofights.jpg" />
+    <ion-card-content>
+      In this scene Tommy tells the whole band not to fight since this is his wedding.
+    </ion-card-content>
+    <ion-button color="medium" [routerLink]="['/moment1']">
+      <ion-icon slot="start" name="play" color="danger"></ion-icon>
+      play
+    </ion-button>
+  </ion-card>
+
+  <ion-card color="dark"> 
+    <ion-card-header>
+      <ion-card-title>"This place is under new management"</ion-card-title>
+    </ion-card-header>
+    <img alt="Silhouette of mountains" src="assets/byorderofthe.jpg" />
+    <ion-card-content>
+      in this scene they are arriving in london and claim a bar.
+    </ion-card-content>
+    <ion-button color="medium" [routerLink]="['/moment2']">
+      <ion-icon slot="start" name="play" color="danger"></ion-icon>
+      play
+    </ion-button>
+  </ion-card>
+
+  <ion-card color="dark"> 
+    <ion-card-header>
+      <ion-card-title>"Tommy shoots Alfie"</ion-card-title>
+    </ion-card-header>
+    <img alt="Silhouette of mountains" src="assets/betrayer.jpg" />
+    <ion-card-content>
+      In this scene Tommy shoots Alfie Solomon because he betrayed him.
+    </ion-card-content>
+    <ion-button color="medium" [routerLink]="['/moment3']">
+      <ion-icon slot="start" name="play" color="danger"></ion-icon>
+      play
+    </ion-button>
+  </ion-card>
+</ion-content>

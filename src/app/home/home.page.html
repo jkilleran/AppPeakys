@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <ion-slides  [options]="slideOpts"  [options]="slideOpts" (ionSlideDidChange) = "ionSlidechange(slides)">
+    <ion-slide>
+      <ion-item class="Espacio">
+      </ion-item>
+      <ion-item class="Espacio">
+      </ion-item>
+      <img class="Primera" src="/assets/TommyText.jpg">
+  </ion-slide>
+  <ion-slide>
+      <img class="Segunda" src="/assets/tommyFum.jpg">
+    <ion-item>
+    </ion-item>
+  </ion-slide>
+  <ion-slide>
+      <h2>Peaky Blinders</h2>
+      <img src="/assets/tresPeakys.jpg">
+      <ion-item>
+        <h5>The peaky blinders is a serie made on Yorkshire, is about a gang of brothers that have a huge style.</h5>
+      </ion-item>
+
+      <img clas="Tercera" src="assets/Peak.jpg">
+  </ion-slide>
+</ion-slides>
+
+
+
+</ion-content>
