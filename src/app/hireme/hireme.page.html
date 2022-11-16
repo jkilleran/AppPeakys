@@ -21,45 +21,26 @@
  
   <ion-fab vertical="center" horizontal="center" slot="fixed">
 
-    <ion-fab-button>
+    <ion-fab-button color="dark">
       <ion-icon name="walk"></ion-icon>
     </ion-fab-button>
 
     <ion-fab-list side="top">
-      <ion-fab-button (click)="presentPopover($event)"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
-      <ion-popover #popover [isOpen]="isOpen" (didDismiss)="isOpen = false">
-        <ng-template>
-          <ion-content class="ion-padding"><a href="https://github.com/jkilleran" target="_blank">jkilleran</a></ion-content>
-        </ng-template>
-      </ion-popover>
+      <a href="https://github.com/jkilleran" target="_blank"><ion-fab-button><ion-icon name="logo-github"></ion-icon></ion-fab-button></a>
     </ion-fab-list>
 
     <ion-fab-list side="bottom">
-      <ion-fab-button (click)="presentPopover2($event)"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
-      <ion-popover #popover [isOpen]="isOpen2" (didDismiss)="isOpen2 = false">
-        <ng-template>
-          <ion-content class="ion-padding"><a href="https://www.facebook.com/johan.herrera.77312/" target="_blank">Johan ventura</a></ion-content>
-        </ng-template>
-      </ion-popover>
+      <a href="https://www.facebook.com/johan.herrera.77312/" target="_blank"><ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button></a>
     </ion-fab-list>
 
     <ion-fab-list side="start">
-      <ion-fab-button (click)="presentPopover3($event)"><ion-icon name="call"></ion-icon></ion-fab-button>
-      <ion-popover #popover [isOpen]="isOpen3" (didDismiss)="isOpen3 = false">
-        <ng-template>
-          <ion-content class="ion-padding"><p>829-539-7836</p></ion-content>
-        </ng-template>
-      </ion-popover>
+      <a href="https://wa.me/18295397836" target="_blank"><ion-fab-button><ion-icon name="logo-whatsapp"></ion-icon></ion-fab-button></a>
     </ion-fab-list>
 
     <ion-fab-list side="end">
-      <ion-fab-button (click)="presentPopover4($event)"><ion-icon name="logo-discord"></ion-icon></ion-fab-button>
-      <ion-popover #popover [isOpen]="isOpen4" (didDismiss)="isOpen4 = false">
-        <ng-template>
-          <ion-content class="ion-padding"><p>jkillerany#8961</p></ion-content>
-        </ng-template>
-      </ion-popover>
+      <a href="tel:+18295397836"><ion-fab-button><ion-icon name="call"></ion-icon></ion-fab-button></a>
     </ion-fab-list>
+
 
   </ion-fab>
 
